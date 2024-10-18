@@ -3,16 +3,13 @@
 loan_management_system/
 │
 ├── app.py                     # Main Flask application
-├── models.py                  # Database models
-├── forms.py                   # Form classes for validation
-├── routes.py                  # API and view routes
-├── static/                    # Static files (CSS, JS)
-│   ├── css/
-│   └── js/
 ├── templates/                 # HTML templates
-│   ├── base.html              # Base template
+│   ├── index.html              # Index page template
 │   ├── register.html          # User registration template
 │   ├── login.html             # User login template
-│   ├── loan_application.html   # Loan application template
+│   ├── apply_loan.html        # Loan apply template
+│   ├── loan_status.html        # Loan status template
 │   └── admin_dashboard.html    # Admin dashboard template
-└── requirements.txt           # Required packages
+│── requirements.txt           # Required packages
+└── Documentation              # Detailed overview of Project
+
